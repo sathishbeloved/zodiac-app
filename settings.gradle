@@ -1,0 +1,2 @@
+rootProject.name='zodiacc'
+include ':app'

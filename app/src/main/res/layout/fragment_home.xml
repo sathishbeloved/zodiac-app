@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <TableRow
+
+                android:id="@+id/firsttwo_buttons"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="38dp"
+                    android:layout_height="125dp" />
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/aries" />
+
+                <Space
+                    android:layout_width="32dp"
+                    android:layout_height="125dp" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/taurus" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/firsttwo_names"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space android:layout_width="32dp" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="ARIES"
+                    />
+
+                <Space android:layout_width="32dp" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="TAURUS" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/sectwo_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="32dp"
+                    android:layout_height="125dp" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/gemini" />
+
+                <Space
+                    android:layout_width="32dp"
+                    android:layout_height="125dp" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/cancer" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/sectwo_names"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space android:layout_width="32dp" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="GEMINI" />
+
+                <Space android:layout_width="32dp" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="CANCER" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/thirdtwo_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="32dp"
+                    android:layout_height="125dp" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/leo" />
+
+                <Space
+                    android:layout_width="32dp"
+                    android:layout_height="125dp" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/virgo" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/thirdtwo_names"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space android:layout_width="32dp" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="LEO" />
+
+                <Space android:layout_width="32dp" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="VIGRO" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fourthtwo_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="32dp"
+                    android:layout_height="125dp" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/libra" />
+
+                <Space
+                    android:layout_width="32dp"
+                    android:layout_height="125dp" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/scorpio" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fourthtwo_names"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space android:layout_width="32dp" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="LIBRA" />
+
+                <Space android:layout_width="32dp" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="SCORPIO" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fifthtwo_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="32dp"
+                    android:layout_height="125dp" />
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/sagittarius" />
+
+                <Space
+                    android:layout_width="32dp"
+                    android:layout_height="125dp" />
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/capricorn" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fifthtwo_names"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space android:layout_width="32dp" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="SAGITTARIUS" />
+
+                <Space android:layout_width="32dp" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="CAPRICORN" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/sixthtwo_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="32dp"
+                    android:layout_height="125dp" />
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/aquarius" />
+
+                <Space
+                    android:layout_width="32dp"
+                    android:layout_height="125dp" />
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/pisces" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/sixthtwo_names"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space android:layout_width="32dp" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="AQUARIUS" />
+
+                <Space android:layout_width="32dp" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="PISECES" />
+
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="57dp"/>
+   <!--  <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+    </TableRow>
+-->
+
+
+</LinearLayout>
